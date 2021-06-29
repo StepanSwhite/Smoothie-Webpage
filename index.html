@@ -2,47 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalize.css">
     <title>Smoothie</title>
 </head>
 <body>
 
-    <header> <!-- .header -->
+    <header class="header">
         <div class="header__top">
-            <nav>
-                <ul>                                   
-                    <li><a href=""></a>Home</li>
-                    <li><a href=""></a>Shop</li>
-                    <li><a href=""></a>Story</li>
-                    <li><a href=""></a>About</li>
-                    <li><a href=""></a>Blog</li>
-                    <li><a href=""></a>Testimonials</li>
+            <nav class="header__nav nav">
+                <ul class="nav__list">                               
+                    <li class="nav__item"><a class="nav__link" href=""></a>Home</li>
+                    <li class="nav__item"><a class="nav__link" href=""></a>Shop</li>
+                    <li class="nav__item"><a class="nav__link" href=""></a>Story</li>
+                    <li class="nav__item"><a class="nav__link" href=""></a>About</li>
+                    <li class="nav__item"><a class="nav__link" href=""></a>Blog</li>
+                    <li class="nav__item"><a class="nav__link" href=""></a>Testimonials</li>
                 </ul>
             </nav>
-            <a href="#"> <!-- .logo -->
-                <img src="" alt="">
-            </a>
-            <div> <!-- .icons -->
-                <ul>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""><span></span></li>
+            <div class="header__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="" alt="Logotip">
+                </a>
+            </div>
+            
+            <div class="header__personal personal"> 
+                <ul class="personal__list">
+                    <li class="personal__list-item"><img class="personal__icon-search" src="" alt=""></li>
+                    <li class="personal__list-item"><img class="personal__icon-user" src="" alt=""></li>
+                    <li class="personal__list-item"><img class="personal__icon-cart" src="" alt=""><span class="personal__icon-count">0</span></li>
                 </ul>    
             </div>
-            <div> <!-- .social-icons -->
-                <ul>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
+            <div class="header__socials socials">
+                <ul class="socials__list">
+                    <li class="socials__item"><img class="social__img-facebook" src="" alt=""></li>
+                    <li class="socials__item"><img class="social__img-pinterest" src="" alt=""></li>
+                    <li class="socials__item"><img class="social__img-insta" src="" alt=""></li>
                 </ul>
             </div>
         </div>
         
         <div class="header__main">
 
-            <div>
-                <a href="">Shop Now</a>
-                <h1>The Best Smoothies</h1>
-                <img src="" alt="">
+            <div class="header__content">
+                <a class="header__btn btn btn--green" href="#">Shop Now</a>
+                <h1 class="header__title">The Best Smoothies</h1>
             </div>
         </div>
     </header> <!-- ./header -->
